@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minon | Set The Price</title>
+        <meta charset="utf-8"></meta>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+           	<canvas id="smile" width="79" height="72">
+		        please update!
+	        </canvas>
+            <div class="container">
+                <ul class="menu">
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li class="sep"></li>
+                    <li>
+                        <a href="history.html">History</a>
+                    </li>
+                    <li class="sep"></li>
+                    <li>
+                        <a href="cakes.html">Cakes</a>
+                    </li>
+                    <li class="sep"></li>
+                    <li>
+                        <a href="basket.html">My basket</a>
+                    </li>
+                    <li class="sep"></li>
+                    <li>
+                        <a href="bake.html">Bake your cakes</a>
+                    </li>
+                    <li class="sep"></li>
+                    <li>
+                        <a href="login.php">Login</a>
+                    </li>
+                </ul>
+                <ul id="rightmenu">
+                    <li>
+                        <a href="login.php">
+                            <canvas id="canvas1" width="51" height="49"></canvas>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="basket.html">
+                            <canvas id="canvas2" width="57" height="49"></canvas>
+                        </a>
+                    </li>
+                </ul>
+                <a id="minon" href="homepage.html">
+                    <img src="images/minon.png">
+                </a>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <h1 class="title">
+                    <span>SET THE PRICE OF EX-DECORATION</span>
+                </h1>
+            </div>
+        </section>
+        <div id="home">
+            <div id="homebackground"></div>
+            <div class="container">
+			    <div id="form-headers">
+			        <h1 id="set">Set the price</h1>
+			        <h1 id="show">Price list</h1>
+			    </div>
+			    <div class="clear"></div>
+			    <div id="form-container">
+			        <div id="left-pane">
+			            <div id="indexDB-form">
+			                <label>Please choose the type:</label>
+			                <br>
+			                <select id="select">
+			                    <option value="FLOWERS">FLOWERS</option>
+			                    <option value="FRUIT">FRUIT</option>
+			                    <option value="MACARON">MACARON</option>
+			                    <option value="MARSHMALLOW">MARSHMALLOW</option>
+			                    <option value="MERINGUE">MERINGUE</option>
+			                </select>
+			                <br>
+			                <label>Please set the price:</label>
+			                <br>
+			                <input type="number" id="price">
+			                <br>
+			                <button id="modify">modify</button>
+			               
+			            </div>
+			        </div>
+			        <div id="right-pane">
+			            <div id="showlist">
+			                <ul id="pricelist">
+			                    <li id="FLOWERS">FLOWERS - 20CNY</li>
+			                    <li id="FRUIT">FRUIT - 15CNY</li>
+			                    <li id="MACARON">MACARON - 4CNY</li>
+			                    <li id="MARSHMALLOW">MARSHMALLOW - 2CNY</li>
+			                    <li id="MERINGUE">MERINGUE - 2CNY</li>
+			                </ul>
+			            </div>
+			        </div>
+			    </div>
+		    </div>
+        </div>
+        <footer id="indexDB">
+            <div class="container">
+		        <p>Welcome to Minon.</p>
+	        </div>
+        </footer>
+        <script src="js/canvas.js"></script>
+        <script src="js/ben.js"></script>
+    </body>
+</html>

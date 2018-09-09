@@ -1,0 +1,27 @@
+$(function(){
+    $('#slideshow1').hover(function(){
+        $(this).find('img').fadeOut('slow');
+    },function(){
+        $(this).find('img').fadeIn('slow');
+    });
+      $('#slideshow2').hover(function(){
+        $(this).find('img').fadeOut('slow');
+    },function(){
+        $(this).find('img').fadeIn('slow');
+    });
+      $('#slideshow3').hover(function(){
+        $(this).find('img').fadeOut('slow');
+    },function(){
+        $(this).find('img').fadeIn('slow');
+    });
+    
+    $('#slide1').click(function(){
+      $('#content1').slideToggle();
+      });
+    $('#slide2').click(function(){
+      $('#content2').slideToggle();
+      });
+    $('#slide3').click(function(){
+      $('#content3').slideToggle();
+      });
+});

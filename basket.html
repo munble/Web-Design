@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minon | Basket</title>
+        <meta charset="utf-8"></meta>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+           	<canvas id="smile" width="79" height="72">
+		        please update!
+	        </canvas>
+            <div class="container">
+                <ul class="menu">
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li class="sep"></li>
+                    <li>
+                        <a href="history.html">History</a>
+                    </li>
+                    <li class="sep"></li>
+                    <li>
+                        <a href="cakes.html">Cakes</a>
+                    </li>
+                    <li class="sep"></li>
+                    <li>
+                        <a href="basket.html">My basket</a>
+                    </li>
+                    <li class="sep"></li>
+                    <li>
+                        <a href="bake.html">Bake your cakes</a>
+                    </li>
+                    <li class="sep"></li>
+                    <li>
+                        <a href="login.php">Login</a>
+                    </li>
+                </ul>
+                <ul id="rightmenu">
+                    <li>
+                        <a href="login.php">
+                            <canvas id="canvas1" width="51" height="49"></canvas>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="basket.html">
+                            <canvas id="canvas2" width="57" height="49"></canvas>
+                        </a>
+                    </li>
+                </ul>
+                <a id="minon" href="homepage.html">
+                    <img src="images/minon.png">
+                </a>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <h1 class="title">
+                    <span>MY BASKET</span>
+                </h1>
+            </div>
+        </section>
+        <div id="basket-home">
+            <div class="container">
+            <div id="content">
+					<div id="cake-notice">
+					<p>
+						Cakes at room temperature, cut with stretch film wrapping keep contact with air. <br>Consume within 10 days.
+					</p>
+					<p>
+						If you have selected a creamy cake, please be sure to maintain the air in a container that prevents the.<br> Consume within 3 days.
+					</p>
+					</div>
+            </div>
+            <div class="backline"></div>
+            <div id="cakes">
+                <p class="caketitle">What cakes do you want ?</p>
+                <div class="form_s">
+                                <form>
+                                    <select class="select2 boyut" id="num1">
+                                        <option value="0">SIZE</option>
+                                        <option value="84">For 6 Persons - 84 CNY</option>
+                                        <option value="100">For 10 Persons - 100 CNY</option>
+                                        <option value="280">For 20 Persons - 280 CNY</option>
+                                    </select>
+                                    <select class="select2 pand">
+                                        <option value="">SPONGE</option>
+                                        <option value="VANİLYA">VANILLA</option>
+                                        <option value="ÇIKOLATA">CHOCOLATE</option>
+                                    </select>
+                                    <select class="select2 krema">
+                                        <option value="">CREAM</option>
+                                        <option value="VANILYA">VANILLA</option>
+                                        <option value="BITTER ÇIKOLATA">DARK CHOCOLATE</option>
+                                        <option value="SÜTLÜ ÇIKOLATA">MILK CHOCOLATE</option>
+                                        <option value="LIMON">LEMON</option>
+                                        <option value="FISTIK">PISTACHIO</option>
+                                        <option value="MASCARPONE">MASCARPONE</option>
+                                    </select>
+                                    <div class="clear" style="height:10px;"></div>
+                                    <select class="select2 icerik">
+                                        <option value="">INGREDIENTS</option>
+                                        <option value="ÇILEK">STRAWBERRY</option>
+                                        <option value="PORTAKAL">ORANGE</option>
+                                        <option value="KESTANE">CHESTNUT</option>
+                                        <option value="LIMON">LEMON</option>
+                                        <option value="KARAMELIZE FISTIK">CARAMELIZED PISTACHIO</option>
+                                        <option value="TUZLU KARAMEL PARÇALARI">SALTED CARAMEL PIECES</option>
+                                    </select>
+                                    <select class="select2 dekor" id="num2">
+                                        <option value="0">EX-DECORATION</option>
+                                        <option value="20" id="Flowers" class="opt">FLOWERS - 20 CNY</option>
+                                        <option value="15" id="Fruit" class="opt">FRUIT - 15 CNY</option>
+                                        <option value="4" id="Macaron" class="opt">MACARON - 4 CNY</option>
+                                        <option value="2" id="Marshmallow" class="opt">MARSHMALLOW - 2 CNY</option>
+                                        <option value="2" id="Meringue" class="opt">MERINGUE - 2 CNY</option>
+                                    </select>
+                                   
+                                </form>
+                            </div>
+            </div>
+            <div class="backline"></div>
+            <div id="info">
+                <p class="h2title">Communication Informations</p>
+                <input name="name" class="input_1 iname" placeholder="Name - Surname" type="text" id="name" >
+                <input name="phone" class="input_1 iphone" placeholder="Phone Number" type="text" id="phone" >
+                <input name="email" class="input_1 iemail" placeholder="E-mail" type="text" id="email">
+            </div>
+            <div id="add">
+                <textarea id="address" class="textarea address" placeholder="Adress" ></textarea> 
+                <div id="total"><p class="total-p">Total:</p>   
+                <input class="total-out" type="text" id="result" >
+                </div>
+                <a class="sendBtn" id="submit"><img src="images/sv.png"></a>
+            </div>
+		    </div>
+        </div>
+        <footer id="baskethtml">
+            <div class="container">
+		        <p>Welcome to Minon.</p>
+	        </div>
+        </footer>
+        <script src="js/canvas.js"></script>
+        <script src="js/basket.js"></script>
+  
+    </body>
+</html>
